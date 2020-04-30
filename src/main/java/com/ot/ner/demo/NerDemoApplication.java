@@ -1,0 +1,13 @@
+package com.ot.ner.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class NerDemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(NerDemoApplication.class, args);
+	}
+
+}
